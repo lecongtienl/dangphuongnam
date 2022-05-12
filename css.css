@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    margin: 0px auto;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+.menu{
+    padding: 28px 0px;
+    float: right;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 16px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.menu ul li a:hover{
+color:red;
+text-decoration: underline;
+}
+
+header{
+    height: 86px;
+}
+.logo{
+    height: 86px;
+    float: left;
+    padding: 18px 0 ;
+    padding-left: 16px;
+}
+.img-head{
+    height: 600px;
+    padding: 0px;
+    margin: 0px;
+}
+.title h1{
+    margin-left: 16px;
+    margin-bottom: 32px;
+    margin-top: 64px;
+
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin-left: 16px;
+    margin-bottom: 64px;
+    height: 373.6px;
+}
+.main-img{
+    width: 448px;
+    height: 252px;
+    margin-bottom: 16px;
+}
+.main{
+    width: 448px;
+    padding: 0px;
+    margin: 0px;
+}
+.main-title span {
+    font-size: 16px;
+    color:#FD4756 ;
+    font-weight: 400px;
+    font-style: normal;
+
+}
+
+.main-title > div >a {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+text-decoration: none;
+color: #000000; 
+}
+.main-title > div >a:hover {
+text-decoration: underline;
+}
+.main-title > div {
+    margin-top: 16px; 
+
+}
+
+.img-content{
+    height: 600px;
+}
+.container footer{
+    height: 100px;
+    background-color: #000000;
+    margin-top: 16px;
+    clear: both;
+    
+}
+.container > footer > p{
+    float: left;
+    margin-right: 0px;
+    margin-left: 16px;
+    padding-top: 39px;
+    font-weight: 400px;
+    color: #ffffff;
+    line-height: 30px;
+    width: 213px;
+
+}
+.container > footer >button{
+    padding: 10px;
+    margin: 25px 0px;
+    margin-right: 16px;
+    width:  Hug (127px);
+        float: right;
+    gap: 10px;
+    flex-direction: row;
+    align-items: flex-start;
+    background: #FD4756;
+border-radius: 5px;
+height:Hug 50px;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #ffffff;
+}
